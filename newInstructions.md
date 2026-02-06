@@ -1,4 +1,4 @@
-# Lab 03: All About Functions 🚀
+# Lab 03: All About Functions
 
 Welcome to your third lab! Today you'll learn about functions in Python—one of the most important building blocks in programming.
 
@@ -27,7 +27,7 @@ def parameters(num1, num2):
     return multiplication
 ```
 
-**Why isn't there any output?** ❓
+**Why isn't there any output?**
 
 When you define a function, Python stores it but doesn't run it. Functions only execute when you **call** them!
 
@@ -41,7 +41,7 @@ graph LR
     style D fill:#d4edda
 ```
 
-## How to Test Your Code 🧪
+## How to Test Your Code
 
 Your file has a `run()` function at the bottom. To test a function, uncomment (remove the `#`) from the line that calls it.
 
@@ -55,11 +55,11 @@ def run():
     return #Do NOT change this line!
 ```
 
-> ⭐ **Tip**: After testing, add the `#` back to test one thing at a time.
+> **Tip**: After testing, add the `#` back to test one thing at a time.
 
 ---
 
-## Step 1: Performing an Action 🎬
+## Step 1: Performing an Action
 
 The `printStatement` function performs an action: it prints text to the console.
 
@@ -77,11 +77,11 @@ def printStatement():
 printStatement()
 ```
 
-> ⭐ **Note**: We call `printStatement()` directly, not `print(printStatement())`, because the function does the printing itself.
+> **Note**: We call `printStatement()` directly, not `print(printStatement())`, because the function does the printing itself.
 
 ---
 
-## Step 2: Getting a Value Back 🎁
+## Step 2: Getting a Value Back
 
 The `returnValues` function doesn't print anything. Instead, it **returns** a value that can be used elsewhere.
 
@@ -113,7 +113,7 @@ print(result)
 
 ---
 
-## Step 3: Passing Information with Parameters 📥
+## Step 3: Passing Information with Parameters
 
 The `parameters` function has `num1` and `num2` in parentheses. These are **parameters**—placeholders for values you provide when calling the function. The values you pass in are called **arguments**.
 
@@ -148,7 +148,7 @@ print(parameters(5, 7))
 
 ---
 
-## Step 4: Putting It All Together: The Ice Cream Order 🍦
+## Step 4: Putting It All Together: The Ice Cream Order
 
 Now you'll create a function from scratch that combines everything you've learned!
 
@@ -184,7 +184,7 @@ print(iceCreamOrder())
 
 ---
 
-## ✅ Lab Complete!
+## Lab Complete!
 
 Great work! You've learned the basics of Python functions.
 
@@ -193,7 +193,3 @@ Great work! You've learned the basics of Python functions.
 - **Call**: `function_name()`
 - **Return**: `return value`
 - **Parameters**: `def my_func(param1, param2):`
-
----
-
-*Happy coding! 🎉*
