@@ -1,7 +1,7 @@
 # Lab 03: All About Functions
 
 Welcome to your third lab! Today you'll learn about functions in Python—one of the most important building blocks in programming.
-
+q
 **Before you begin:** Copy and paste the code from this lab into your Zybooks file. You will edit and run your code in Zybooks.
 
 ## Learning Objectives
@@ -49,7 +49,7 @@ Your file has a `run()` function at the bottom. **That is where you should put y
 2. Scroll to the `run()` function at the bottom.
 3. Uncomment (remove the `#`) from the line that calls the function you want to test.
 
-Example: to test the first function, change `#displayGreeting()` to `displayGreeting()` inside `run()`.
+Example: to test the first function, change `#printStatement()` to `printStatement()` inside `run()`.
 
 > **Tip**: After testing, add the `#` back so you can test one thing at a time.
 
@@ -57,7 +57,7 @@ Example: to test the first function, change `#displayGreeting()` to `displayGree
 
 ## Step 1: Performing an Action
 
-The first function (in the starter code) performs an action: it prints text to the console. In your lab it may be named something like `displayGreeting` so it is clear this is your function, not the built-in `print()`.
+The first function (in the starter code) performs an action: it prints text to the console. In your lab it may be named something like `printStatement` so it is clear this is your function, not the built-in `print()`.
 
 **Your Task:**
 
@@ -65,9 +65,9 @@ The first function (in the starter code) performs an action: it prints text to t
 2. Inside the function, add a new line that prints exactly: **"This is my first function!"**
 3. To see it run, go to the `run()` function at the bottom and uncomment the line that calls this function. Then run the file.
 
-Do not write the function call inside the function definition. The **call** (e.g. `displayGreeting()`) belongs in `run()` or in another place where you want the function to execute; the **definition** (the `def` and the code inside it) stays where the starter code put it.
+Do not write the function call inside the function definition. The **call** (e.g. `printStatement()`) belongs in `run()` or in another place where you want the function to execute; the **definition** (the `def` and the code inside it) stays where the starter code put it.
 
-> **Note**: Call the function by its name with parentheses (e.g. `displayGreeting()`). Do not put it inside `print(...)`, because the function already does the printing.
+> **Note**: Call the function by its name with parentheses (e.g. `printStatement()`). Do not put it inside `print(...)`, because the function already does the printing.
 
 ---
 
